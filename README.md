@@ -40,15 +40,15 @@ Tools & Technology:
 
 
 Completed Features:
-• Developed a microservice-based core banking platform using Spring WebFlux to serve both customers and backend
+- Developed a microservice-based core banking platform using Spring WebFlux to serve both customers and backend
 banking teams while gaining an in-depth understanding of core banking processes
-• Implemented customer self-registration with account-based identity verification and Redis-backed SMS OTP, with
+- Implemented customer self-registration with account-based identity verification and Redis-backed SMS OTP, with
 Kafka outbox notifications
-• Designed and developed JWT based authentication with a dynamic RBAC (roles, permissions, per-user overrides and
+- Designed and developed JWT based authentication with a dynamic RBAC (roles, permissions, per-user overrides and
 permission-driven menus) managed by admins at runtime
-• Implemented an all-or-nothing account-opening flow across three services using saga-style compensating rollback, so
+- Implemented an all-or-nothing account-opening flow across three services using saga-style compensating rollback, so
 a failure at any step leaves no partial data
-• Implemented inter-service communication and event-driven processing using GraphQL, gRPC, WebClient, and
+- Implemented inter-service communication and event-driven processing using GraphQL, gRPC, WebClient, and
 Apache Kafka with the Outbox Pattern
  
 
