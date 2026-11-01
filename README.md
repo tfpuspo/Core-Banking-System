@@ -40,11 +40,15 @@ Tools & Technology:
 
 
 Completed Features:
- - Role-based menu access control system, enabling dynamic role and permission management
- - User registration (auth-service)
- - Identity verification via account number lookup (auth-service → account-service)
- - Identity match on date of birth and mobile number (auth-service → customer-service)
- - OTP generation, delivery (via SMS), and verification for identity confirmation (auth-service ↔ notification-service, Redis + Kafka outbox)
- - Credential setup & account activation — creates username/password linked to verified customer, with welcome notification (auth-service → notification-service)
+• Developed a microservice-based core banking platform using Spring WebFlux to serve both customers and backend
+banking teams while gaining an in-depth understanding of core banking processes
+• Implemented customer self-registration with account-based identity verification and Redis-backed SMS OTP, with
+Kafka outbox notifications
+• Designed and developed JWT based authentication with a dynamic RBAC (roles, permissions, per-user overrides and
+permission-driven menus) managed by admins at runtime
+• Implemented an all-or-nothing account-opening flow across three services using saga-style compensating rollback, so
+a failure at any step leaves no partial data
+• Implemented inter-service communication and event-driven processing using GraphQL, gRPC, WebClient, and
+Apache Kafka with the Outbox Pattern
  
 
