@@ -9,7 +9,7 @@ CBS Application Video Recording Link: https://drive.google.com/drive/folders/1PU
 <div align="center">
   <h3>Part 1</h3>
   <a href="https://github.com/user-attachments/assets/3722e567-0a27-4b4f-96c0-bbf6b5fbae28">
-    <img src="records/backend_team.png" width="700" height="400" alt="Part 1 - backend_team demo">
+    <img src="records/super_admin.png" width="700" height="400" alt="Part 1 - backend_team demo">
   </a>
 </div>
 
